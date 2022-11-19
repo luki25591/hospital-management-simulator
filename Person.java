@@ -33,7 +33,8 @@ public class Person {
         this.salary = salary;
     }
 
-    public void prinfInfo(){
-        String info = "Imię: " + name + ", nazwisko: " + surname + ", wynagrodzenie: " + salary;
+    public String getfInfo(){
+        return "Imię: " + name + ", nazwisko: " + surname + ", wynagrodzenie: " + salary;
     }
+
 }

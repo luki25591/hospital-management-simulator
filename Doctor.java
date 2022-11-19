@@ -15,7 +15,8 @@ public class Doctor extends Person {
     }
 
     @Override
-    public void prinfInfo(){
-        String info = "Imię: " + getName() + ", nazwisko: " + getSurname() + ", wynagrodzenie: " + getSalary() + ", premia: " + bonus;
+    public String getfInfo(){
+        return "Imię: " + getName() + ", nazwisko: " + getSurname() + ", wynagrodzenie: " + getSalary()
+                + ", premia: " + bonus;
     }
 }
