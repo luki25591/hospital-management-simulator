@@ -33,7 +33,7 @@ public class Person {
         this.salary = salary;
     }
 
-    public String getfInfo(){
+    public String getInfo(){
         return "Imię: " + name + ", nazwisko: " + surname + ", wynagrodzenie: " + salary;
     }
 

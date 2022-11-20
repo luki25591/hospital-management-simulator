@@ -15,8 +15,7 @@ public class Nurse extends Person {
     }
 
     @Override
-    public String getfInfo(){
-        return "Imię: " + getName() + ", nazwisko: " + getSurname() + ", wynagrodzenie: " + getSalary()
-                + ", nadgodziny: " + overtime;
+    public String getInfo(){
+        return super.getInfo() + ", nadgodziny: " + overtime;
     }
 }

@@ -1,7 +1,5 @@
-import java.security.spec.RSAOtherPrimeInfo;
 
 public class Hospital {
-
     public static final int MAX_PERSON = 3;
     int number = 0;
     Person[] persons = new Person[MAX_PERSON];
@@ -15,17 +13,17 @@ public class Hospital {
         }
     }
 
+
+
     public String getInfo(){
-        for (int i = 0; i < persons.length; i++) {
-
-            System.out.println(persons[i]);
+        String result = "";
+        for (int i = 0; i < number; i++) {
+            result = result + persons[i].getInfo() + "\n";
         }
-
-        return null;
-
-        }
-
+        return result;
     }
+
+}
 
 
 

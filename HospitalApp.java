@@ -6,13 +6,13 @@ public class HospitalApp {
         Person nurse1 = new Nurse("Anna", "Nowak", 3500, 2);
         Person nurse2 = new Nurse("Maria", "Kowalska", 3600, 3);
 
-
         hospital.add(doctor);
         hospital.add(nurse1);
         hospital.add(nurse2);
 
+        System.out.println("Pracownicy:");
+        System.out.println(hospital.getInfo());
 
-       hospital.getInfo();
 
 
 
